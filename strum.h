@@ -1,5 +1,5 @@
-#ifndef __STRUM_DEFINED
-#define __STRUM_DEFINED
+#ifndef STRUM_DEFINED
+#define STRUM_DEFINED
 
     #define STRUM_UP 4
     #define STRUM_COMMON 3 //Just going to be pulled to ground
