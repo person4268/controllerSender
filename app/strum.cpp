@@ -11,16 +11,14 @@ void strum_init() {
  * Sends the value to the reciever. Temporaily, this is the serial console. 
 */
 void strum_up(bool state) {
-    if(state) Serial.write("U"); 
-    else Serial.write("u");
+    Serial.write("U");
 }
 
 /**
  * Sends the value to the reciever. Temporaily, this is the serial console. 
 */
 void strum_down(bool state) {
-    if(state) Serial.write("D"); 
-    else Serial.write("d");
+    Serial.write("D");
 }
 
 bool strumUpFlag = false;
