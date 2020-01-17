@@ -24,7 +24,7 @@ void button_green(bool state) {
 
 void button_red(bool state) {
     if(state) Serial.write("W"); 
-    else Serial.write("w");
+    else Serial.write("w"strum_up
 }
 
 void button_yellow(bool state) {
