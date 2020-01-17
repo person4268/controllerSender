@@ -7,17 +7,12 @@ void strum_init() {
     digitalWrite(STRUM_UP, HIGH); //Pull-Up resistor
     digitalWrite(STRUM_DOWN, HIGH); //Pull-Up resistor
 }
-/**
- * Sends the value to the reciever. Temporaily, this is the serial console. 
-*/
+
 void strum_up(bool state) {
     if(state) Serial.write("U");
     else Serial.write("u");
 }
 
-/**
- * Sends the value to the reciever. Temporaily, this is the serial console. 
-*/
 void strum_down(bool state) {
     if(state) Serial.write("D");
     else Serial.write("d");
