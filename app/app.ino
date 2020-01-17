@@ -11,6 +11,6 @@ void setup()
 
 void loop()
 {
-	//strum_read();
-    wammy_read();
+	  strum_read();
+    //wammy_read();
 }

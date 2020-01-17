@@ -1,0 +1,4 @@
+U - Strum Up (on)
+u - Strum Up (off)
+D - Strum Down (on)
+D - Strum Down (off)
