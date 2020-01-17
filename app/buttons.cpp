@@ -64,31 +64,31 @@ void buttons_read() {
     bool btnGreen = digitalRead(BUTTON_GREEN);
     if(btnGreenFlag != btnGreen) {
         btnGreenToggle = !btnGreenToggle; //Once on press, once on release
-        button_color(btnGreenToggle);
+        button_green(btnGreenToggle);
         btnGreenFlag = btnGreen;
     }
     bool btnRed = digitalRead(BUTTON_RED);
     if(btnRedFlag != btnRed) {
         btnRedToggle = !btnRedToggle; //Once on press, once on release
-        button_color(btnRedToggle);
+        button_red(btnRedToggle);
         btnRedFlag = btnRed;
     }
     bool btnYellow = digitalRead(BUTTON_YELLOW);
     if(btnYellowFlag != btnYellow) {
         btnYellowToggle = !btnYellowToggle; //Once on press, once on release
-        button_color(btnYellowToggle);
+        button_yellow(btnYellowToggle);
         btnYellowFlag = btnYellow;
     }
     bool btnBlue = digitalRead(BUTTON_BLUE);
     if(btnBlueFlag != btnBlue) {
         btnBlueToggle = !btnBlueToggle; //Once on press, once on release
-        button_color(btnBlueToggle);
+        button_blue(btnBlueToggle);
         btnBlueFlag = btnBlue;
     }
     bool btnOrange = digitalRead(BUTTON_ORANGE);
     if(btnOrangeFlag != btnOrange) {
         btnOrangeToggle = !btnOrangeToggle; //Once on press, once on release
-        button_color(btnOrangeToggle);
+        button_orange(btnOrangeToggle);
         btnOrangeFlag = btnOrange;
     }
 
