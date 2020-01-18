@@ -15,4 +15,5 @@ void loop()
 	  strum_read();
       buttons_read();
     //wammy_read();
+    delay(6);
 }
