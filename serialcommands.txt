@@ -1,4 +1,15 @@
+(lowercase variants turn the key off, uppercase means on)
+
 U - Strum Up (on)
 u - Strum Up (off)
 D - Strum Down (on)
 D - Strum Down (off)
+
+Q - Green
+W - Red
+E - Yellow
+R - Blue
+T - Orange
+
+K - Start
+L - Select
