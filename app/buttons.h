@@ -6,6 +6,6 @@
 #define BUTTON_SELECT 7
 
 void buttons_init();
-void buttons_
+void buttons_read();
 
 #endif
